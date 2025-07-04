@@ -10,7 +10,6 @@ import lombok.*;
 @Builder
 @Table(name = "usuario")
 @Entity
-
 public class Usuario {
 
     @Id
@@ -20,6 +19,6 @@ public class Usuario {
     @Column(name = "email", unique = true)
     private String email;
 
-    @Column(name = "name")
+    @Column(name = "nome")
     private String nome;
 }
